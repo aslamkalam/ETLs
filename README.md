@@ -8,6 +8,9 @@ Load raw customer data from files into a PostgreSQL staging table.
 Handles file ingestion.
 Applies basic data validation.
 Creates the staging table with partitions and indexes for optimized querying.
+
+
+
 ETL Stage 2:
 Move validated data from the staging table to a final partitioned table.
 
