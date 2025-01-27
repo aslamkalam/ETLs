@@ -1,0 +1,11 @@
+etl_project/
+├── config/
+│   ├── database_config.py       # Database connection setup
+├── scripts/
+│   ├── create_final_table.py    # Create partitioned final table
+│   ├── load_partitioned_data.py # Load country-wise data from staging to partitions
+│   ├── utils.py                 # Utility functions for partitioning and validation
+├── logs/
+│   ├── etl.log                  # Log file for the ETL process
+├── .env                      # Environment variables for database credentials
+├── main.py                      # Main script to orchestrate the ETL process

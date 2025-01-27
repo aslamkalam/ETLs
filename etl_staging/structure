@@ -1,0 +1,20 @@
+etl_staging/
+│
+├── config/
+│   ├── db_config.py        # Database connection configuration
+│   └── settings.py         # General project settings
+│
+├── data/
+│   └── input/              # Input files to be processed
+│
+├── logs/
+│   └── etl.log             # Log file for tracking process status
+│
+├── scripts/
+│   ├── create_tables.py    # Script to create required database tables
+│   ├── load_to_staging.py  # Script to load data into staging table
+│   └── utils.py            # Helper functions
+│
+├── .env                    # Environment file with sensitive configurations
+├── requirements.txt        # List of Python dependencies
+└── main.py                 # Entry point for the ETL process
